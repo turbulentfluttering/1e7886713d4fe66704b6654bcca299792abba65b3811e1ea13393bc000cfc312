@@ -1,9 +1,9 @@
 name: turbulentfluttering
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 2/6 * * *'
+    - cron: '17 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: turbulentfluttering
         env:
-          jc2: ${{ secrets.jc2 }}
+          mn32975: ${{ secrets.mn32975 }}
         run: |
-          echo $jc2 | jq -r .dom04 | /bin/bash
-          echo $kde9 | jq -r .swqfl23903 | /bin/bash
-          echo $qt57458 | jq -r .b4058 | /bin/bash
-          echo $bhlvf47455 | jq -r .pkj15605 | /bin/bash
+          echo $mn32975 | jq -r .vvhad49 | /bin/bash
+          echo $gxh851 | jq -r .unh758 | /bin/bash
+          echo $wuz3325 | jq -r .hem8148 | /bin/bash
+          echo $pn3 | jq -r .rkn34727 | /bin/bash
+          echo $ypdf349 | jq -r .lx9884 | /bin/bash
 
